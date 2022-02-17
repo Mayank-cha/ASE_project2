@@ -1,0 +1,22 @@
+
+Table Creation
+
+CREATE TABLE `collect_object`.`scores` ( `name` VARCHAR(50) NOT NULL DEFAULT 'anonymous' , `mode` INT(2) UNSIGNED NOT NULL DEFAULT '0' , `score` INT(10) UNSIGNED NOT NULL DEFAULT '0' ) ENGINE = MyISAM;
+________________________________________________________________________________________________________________________________________
+
+Insert entry
+
+INSERT INTO `scores`(`name`, `mode`, `score`) VALUES ('[value-1]','[value-2]','[value-3]');
+
+________________________________________________________________________________________________________________________________________
+
+Delete entry
+
+DELETE FROM `scores` WHERE 0;
+________________________________________________________________________________________________________________________________________
+
+Update entry
+
+UPDATE `scores` SET `name`='[value-1]',`mode`='[value-2]',`score`='[value-3]' WHERE 1;
+
+________________________________________________________________________________________________________________________________________
