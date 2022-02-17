@@ -1,0 +1,15 @@
+
+---------------------------------------------------------------------
+15 Feb, 2022
+
+CP8117P12-147
+
+User_details page is added .
+This page will have the following components :
+1) Username
+2) Mode of selection.
+
+Once a valid username and mode of selection is added by user and start button is 
+pressed , the details will be added to DB.
+
+--------------------------------------------------------------------
